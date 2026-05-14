@@ -15,6 +15,9 @@ function formatSignalMessage(data) {
   const emoji = action === 'BUY' ? '🟢' : '🔴';
 
   return `
+Bẩm đại vương -Toàn Tạ, có signal mới\\!
+Bẩm mẫu hậu - Hoa Phạm, có signal mới\\!
+Mời đại vương, mẫu hậu thẩm ạ\\!
 ${emoji} *${action} ${pair}*
 ━━━━━━━━━━━━━━━
 📊 Timeframe: \`${timeframe}\`
