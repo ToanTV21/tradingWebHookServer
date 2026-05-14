@@ -5,8 +5,8 @@ const app = express();
 
 app.use(express.json());
 
-const BOT_TOKEN = 'YOUR_BOT_TOKEN';
-const CHAT_ID  = 'YOUR_CHAT_ID';
+const BOT_TOKEN = process.env.BOT_TOKEN;
+const CHAT_ID   = process.env.CHAT_ID;
 const PORT     = 3000;
 
 // Format message từ TradingView alert
