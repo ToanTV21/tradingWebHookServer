@@ -7,7 +7,7 @@ app.use(express.json());
 
 const BOT_TOKEN = process.env.BOT_TOKEN;
 const CHAT_ID   = process.env.CHAT_ID;
-const PORT     = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Format message từ TradingView alert
 function formatSignalMessage(data) {
